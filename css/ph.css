@@ -1,0 +1,136 @@
+body{
+	margin: 0px;
+}
+li{
+	list-style: none;
+}
+#header{
+	border: 0PX solid red;
+	width:100%;
+	height:100%;
+}
+.nav p{
+	padding: 0px;
+}
+.name{
+	border: 0px solid red;
+	color: gainsboro;
+	margin-top: 20px;
+	font-size:30px;
+	margin-left:120px;
+}
+.nav{
+   background-color:#fff;
+   width:100%;
+  
+   margin-top: 20px;
+   
+}
+.nav li{
+	position: relative;
+	float: left;
+	left:5%;
+}
+.nav a{
+	text-decoration:none;
+}
+.nav ul:hover{
+	color:red;
+}
+.nav-head{
+	height: 30px;
+	margin-top:10px;
+	color: black;
+}
+.nav-head a{
+	border: 1px solid red;
+	border-color:gainsboro ;
+	background-color: #F8F8FF;
+	border-left-style:solid ;
+	padding:10px 70px;
+	font-size: 20px;
+	float: left;
+	list-style: none;
+	font-size: 20px;
+	margin-top: 1px;
+	height: 30px;
+	color: #000000;
+}
+.nav-head a:hover{
+	color:blue;
+	background-color: #DCDCDC;
+}
+.mainer{
+	font-family: "微软雅黑";
+	text-align: center;
+}
+.mark{
+	font-size: 80px;
+	margin-top:140px;
+}
+.r{
+	font-size: 25PX;
+	margin-top: 10PX;
+}
+.button{
+	height: 40px;
+	width: 200px;
+	margin-top:20px ;
+	font-size: 20px;
+	background-color: #3CB371;
+	border: none;
+	border-radius:5px ;
+}
+.button a{
+	text-decoration:none;
+	color: white;
+}
+#banner{
+	border: 1px solid gainsboro;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-left-style:none;
+	border-right-style:none;
+	height: 360px;
+     width: 90%;
+     margin-left: 5%;
+	display:block;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 100px;
+	}
+.heading{
+	width: 32%;
+	float: left;
+	padding-right: 10px;
+	margin-left: 1px;
+	margin-top: 40px;
+}
+.heading h3{
+	font-size:18px ;
+	color:gray;
+	margin-top: 60px;
+}
+.heading p{
+	font-size:17px;
+	color: gray;
+	line-height:18px;
+}
+.View{
+	border: 2px solid gainsboro;
+	height: 60px;
+	width: 200px;
+	border-radius: 5px;
+	background-color:gainsboro;
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+	text-decoration: none;
+	box-shadow: 2px 5px 2px 5px;
+}
+#footer{
+margin-top: 50px;
+text-align: center;
+font-family: "微软雅黑";
+font-size: 20px;
+}
